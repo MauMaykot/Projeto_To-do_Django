@@ -30,7 +30,10 @@ INSTALLED_APPS = [
     'about',
     'users',
     'crispy_forms',
+<<<<<<< HEAD
     'accounts',
+=======
+>>>>>>> c778cb5fc88a8abb1dbe0a92a2c16b6f137dcfdd
 ]
 
 MIDDLEWARE = [
@@ -114,7 +117,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
+<<<<<<< HEAD
 
 LOGIN_REDIRECT_URL = '/'
 
 LOGOUT_REDIRECT_URL = '/accounts/login'
+=======
+>>>>>>> c778cb5fc88a8abb1dbe0a92a2c16b6f137dcfdd

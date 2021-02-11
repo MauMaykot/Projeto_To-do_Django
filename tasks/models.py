@@ -14,7 +14,10 @@ class Task(models.Model):
         max_length=5,
         choices=STATUS,
     )
+<<<<<<< HEAD
     user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
+=======
+>>>>>>> c778cb5fc88a8abb1dbe0a92a2c16b6f137dcfdd
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
