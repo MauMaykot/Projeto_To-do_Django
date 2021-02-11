@@ -1,8 +1,5 @@
 from django.shortcuts import render, get_object_or_404, redirect
-<<<<<<< HEAD
 from django.contrib.auth.decorators import login_required
-=======
->>>>>>> c778cb5fc88a8abb1dbe0a92a2c16b6f137dcfdd
 from django.core.paginator import Paginator
 from django.http import HttpResponse
 from .forms import TaskForm
@@ -12,8 +9,6 @@ from .models import Task
 
 @login_required
 def taskList(request):
-<<<<<<< HEAD
-=======
 
     search = request.GET.get('search')
 
@@ -75,7 +70,6 @@ def deleteTask(request, id):
 
 def helloWorld(request):
     return HttpResponse('Hello World!')
->>>>>>> c778cb5fc88a8abb1dbe0a92a2c16b6f137dcfdd
 
     search = request.GET.get('search')
 

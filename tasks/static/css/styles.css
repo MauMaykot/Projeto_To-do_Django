@@ -155,7 +155,6 @@ ul.messages li {
 .step-links .current {
     margin-left: 5px;
     margin-right: 5px;
-<<<<<<< HEAD
 }
 
 /* login */
@@ -167,6 +166,4 @@ ul.messages li {
 .change-form-p {
     margin-top: 30px;
     text-align: center;
-=======
->>>>>>> c778cb5fc88a8abb1dbe0a92a2c16b6f137dcfdd
 }
